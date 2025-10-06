@@ -44,4 +44,4 @@ a=int(input("Enter 1st val:"))
 b=int(input("Enter 2nd val:"))
 print(a>=b)
 print(a<b)
-
+#end
