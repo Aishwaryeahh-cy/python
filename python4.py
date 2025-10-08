@@ -80,4 +80,5 @@ print(x)
 if(x%7==0):
     print("Multiple of 7")
 else:
-    print("Not")    
+    print("Not")
+x
