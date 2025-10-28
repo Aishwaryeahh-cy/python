@@ -1,0 +1,11 @@
+FEATURES OF JAVASCRIPT:
+High level programmimg language.
+Interpreted (JavaScript code is read and executed line-by-line by the browser — it’s not converted into a separate executable file before running).
+Dynamically typed programmimg language.
+Single Threaded.
+Blocking in Nature.
+Js is Object based programming language (everything in JavaScript is an object or behaves like one!).
+Automatic garbage collection (When you create variables or objects in JavaScript, they take up memory in your computer (RAM)).
+Jvascript is synchronous. 
+// Single line Comment
+/* */Multi line Comment
