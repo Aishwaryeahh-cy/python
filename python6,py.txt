@@ -1,0 +1,4 @@
+#DAY 6 OF PRACTICING (BASICS OF PYTHON)
+list=[2,3,4,5,4]
+list.pop(2)
+print (list)
