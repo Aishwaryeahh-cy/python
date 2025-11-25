@@ -12,10 +12,9 @@
 # f = open("practice.txt","w")
 # f.write("Hi everyone, /n we are learning File I/O, /n using java /n I like programming in Java")
 # f.close()
-import os
-print("Current folder:", os.getcwd())
-
-with open("practice.txt","w") as f:
-    f.write("Hi everyone, \n we are learning File I/O, \n using java \n I like programming in Java")
+# import os
+# print("Current folder:", os.getcwd())
+# with open("practice.txt","w+") as f:
+#     f.write("Hi everyone, \n we are learning File I/O, \n using java \n I like programming in Java")
 
 
