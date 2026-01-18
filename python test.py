@@ -10,8 +10,8 @@
 # print(int(num)+5)
 # name=input("Enter your name:")
 # print("hello",name)
-a = 5
-b = 10
-a, b = b, a
-print(a, b)
+# a = 5
+# b = 10
+# a, b = b, a
+# print(a, b)
 
