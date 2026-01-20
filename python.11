@@ -1,0 +1,8 @@
+l=[1,2,3,4,5]
+l.append(6)
+l.insert(2,3)
+l.remove(3)
+print(l)
+names = ["Aish", "Rahul", "Neha", "Aish"]
+names.remove("Aish")
+print(names)
