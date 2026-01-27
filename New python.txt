@@ -16,5 +16,5 @@ nest={[1 2
 print(index(nest(4)))
 
 for number in numbers:
-    if number == 10
+    if number == 10:
         return True
