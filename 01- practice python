@@ -1,0 +1,97 @@
+# 1️⃣ Check if string starts with letter and contains a number
+a = input("Enter a string: ")
+digit = False
+for ch in a:
+    if ch.isdigit():
+        digit = True
+
+if a[0].isalpha() and digit:
+    print("Has Number")
+else:
+    print("No number")
+
+
+# 2️⃣ Check if word contains a vowel
+a = input("Enter a word: ")
+has_vowel = False
+for ch in a:
+    if ch.lower() in "aeiou":
+        has_vowel = True
+
+if has_vowel:
+    print("Has vowel")
+else:
+    print("No vowel")
+
+
+# 3️⃣ Simple email validation
+a = input("Enter your email: ")
+if "@" in a and "." in a:
+    print("Valid")
+else:
+    print("Invalid")
+
+
+# 4️⃣ Print word if even-length palindrome
+a = input("Enter your word: ")
+w = a.lower()
+if len(w) % 2 == 0 and w == w[::-1]:
+    print(a)
+else:
+    print("Odd length or not palindrome")
+
+
+# 5️⃣ Compare two numbers
+a = int(input("Enter your 1st num: "))
+b = int(input("Enter your 2nd num: "))
+
+if a > b:
+    print("a is larger")
+else:
+    print("b is larger")
+
+
+# 6️⃣ Palindrome check
+a = input("Enter your word: ")
+w = a.lower()
+
+if w == w[::-1]:
+    print("Palindrome")
+else:
+    print("Not palindrome")
+
+
+# 7️⃣ Count digits if string starts with letter
+a = input("Enter your string: ")
+digit_count = 0
+
+for ch in a:
+    if ch.isdigit():
+        digit_count += 1
+
+if a[0].isalpha() and digit_count > 0:
+    print("Digit count:", digit_count)
+else:
+    print("Incorrect")
+
+
+# 8️⃣ Bill discount calculation
+a = int(input("Enter your bill: "))
+
+if a >= 1000:
+    discount = a * 0.10
+    print("Discount:", discount)
+    print("Final Price:", a - discount)
+else:
+    print("No discount")
+
+
+# 9️⃣ Identify if input has only letters, only numbers, or mixed
+a = input("Enter your string: ")
+
+if a.isalpha():
+    print("ONLY LETTERS")
+elif a.isdigit():
+    print("ONLY NUMBERS")
+else:
+    print("MIXED OF BOTH")
