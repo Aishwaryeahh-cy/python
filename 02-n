@@ -1,0 +1,76 @@
+# 1. Access first element in a list
+a=[3,7,5,9,2]
+print("First element:",a[0])
+
+# 2. Find largest element in a list (manual logic)
+a=[3,7,5,9,2]
+largest=a[0]
+for ch in a:
+if ch>largest:
+largest=ch
+print("Largest in list:",largest)
+
+# 3. Append element to list
+a=[3,7,5,9,2]
+a.append(2)
+print("List after append:",a)
+
+# 4. Insert element into list at index
+s=[10,20,30,40]
+s.insert(2,25)
+print("List after insert:",s)
+
+# 5. Sum of elements in list
+c=[2,4,6,8]
+print("Sum of list:",sum(c))
+
+# 6. Smallest element in list (manual logic)
+c=[8,3,6,1,9]
+smallest=c[0]
+for ch in c:
+if ch<smallest:
+smallest=ch
+print("Smallest in list:",smallest)
+
+# 7. Print even numbers from list
+c=[1,2,3,4,5,6]
+print("Even numbers in list:")
+for ch in c:
+if ch%2==0:
+print(ch)
+
+# 8. Count occurrences of value in list
+c=[5,1,5,2,5,3]
+print("Count of 5 in list:",c.count(5))
+
+# 9. Reverse a list
+c=[1,2,3,4]
+c.reverse()
+print("Reversed list:",c)
+
+# 10. Check if list is palindrome
+c=[1,2,3,2,1]
+if c==c[::-1]:
+print("List is palindrome")
+else:
+print("List is not palindrome")
+
+# 11. Find common elements between two lists
+a=[1,2,3,4]
+b=[3,4,5,6]
+print("Common elements in lists:")
+for x in a:
+if x in b:
+print(x)
+
+# 12. Find second largest element in list
+c=[10,5,8,20,15]
+c.sort()
+print("Second largest in list:",c[-2])
+
+# 13. Print odd numbers from list
+c=[1,2,3,4,5,6,7]
+print("Odd numbers in list:")
+for ch in c:
+if ch%2!=0:
+print(ch)
