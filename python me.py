@@ -24,3 +24,4 @@ def sum(n):
 summ=sum(10)
 print (sum)    
 
+gg
