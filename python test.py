@@ -12,6 +12,6 @@
 # print("hello",name)
 # a = 5
 # b = 10
-# a, b = b, a
-# print(a, b)
+a, b = b, a
+ print(a, b)
 
