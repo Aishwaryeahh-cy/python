@@ -9,9 +9,9 @@
 # num="25"
 # print(int(num)+5)
 # name=input("Enter your name:")
-# print("hello",name)
-# a = 5
-# b = 10
+print("hello",name)
+a = 5
+ b = 10
 a, b = b, a
  print(a, b)
 
