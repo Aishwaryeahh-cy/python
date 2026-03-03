@@ -1,4 +1,4 @@
-
+gybbvc
 show(n-1)
 def show(n):
     if (n==0):
