@@ -2,18 +2,15 @@ Python Practice - Lists
 Practiced basic list operations, loops, and simple logic problems.
 
 # Accessing an element using indexing
-
 a = [5, 10, 15, 20]
 print("Third element:", a[2])
 
 # Inserting an element into a list
-
 a = [5, 10, 15]
 a.insert(1, 12)
 print("List after insert:", a)
 
 # Looping through a list
-
 v = [2, 4, 6, 8]
 print("Elements in the list:")
 for x in v:
