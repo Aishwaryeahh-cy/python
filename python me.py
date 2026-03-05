@@ -1,4 +1,4 @@
-ut579uf8yfyd
+ut579uf8
 show(n-1)
 def show(n):
     if (n==0):
