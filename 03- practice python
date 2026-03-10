@@ -71,3 +71,4 @@ if n == n[::-1]:
 print("List is palindrome")
 else:
 print("List is not palindrome")
+yy
