@@ -1,7 +1,7 @@
 Python Practice - Lists
 Practiced basic list operations, loops, and simple logic problems.
 
-# Accessing an element using indexing
+# Accessing an mmelement using indexing
 a = [5, 10, 15, 20]
 print("Third element:", a[2])
 
