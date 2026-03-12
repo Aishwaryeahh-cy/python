@@ -1,4 +1,4 @@
-y#ll 1. Access first element in a list
+# 1. Access first element in a list
 a=[3,7,5,9,2]
 print("First element:",a[0])
 
